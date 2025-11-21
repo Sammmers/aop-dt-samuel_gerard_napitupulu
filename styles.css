@@ -1,0 +1,142 @@
+body {
+  padding: 25px;
+  height: 232vh;
+  background-image: linear-gradient(0deg, #37425e 0%,#1f2b4e,#2a3a4e 100%);
+  margin: 0px;
+}
+
+.标题 {
+  text-align:  center;
+	font-size: 15px;
+	font-family: Arial, sans-serif;
+	letter-spacing: 0.1px;
+  background: linear-gradient(to right, rgb(138, 216, 222), rgb(214, 102, 171), rgb(156, 103, 192), rgb(236, 236, 138), rgb(169, 98, 169), rgb(138, 216, 222));
+  background-clip: text;
+  color: transparent;
+  background-size: 200% auto;
+  animation: textShine 5s linear infinite;
+  margin-top: 0px;
+  margin-right: -35px
+}
+@keyframes textShine {
+  0% { background-position: 0% 50%; }
+  100% { background-position: 200% 100%; }
+}
+
+.logo-lss { 
+    width: 55px;   
+    margin-bottom: -65px;
+    margin-right: 770px;
+}
+
+.描述 {
+    font-family: Calibri, sans-serif;
+    font-size: 15px;
+    color: whitesmoke;
+    text-align: center;
+    margin-right: -0px; 
+}
+
+ .容器 {  
+   display: flex;  
+   justify-content: center;   
+   flex-wrap: wrap;   
+   gap: 25px;   
+   padding: 30px; 
+}
+
+.歌曲 {
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+  border-radius: 8px;
+  background-image: linear-gradient(0deg, #12081ef8 0%, #121e36 100%);
+  padding: 25px;
+  width: 100px;
+  height: 100px;
+}
+
+.标识 {
+  background: rgba(255, 255, 255, 0.08);
+  border-radius: 14px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.4);
+  width: 270px;
+  padding: 15px;
+} 
+
+.行容器 {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  padding: 30px;
+}
+
+.标识:hover {
+  transition: 0.3s all ease;
+  transform: scale(1.15);
+}
+
+.覆盖 {
+  width: 100%;
+  aspect-ratio: 1 / 1;
+  object-fit: cover;
+  border-radius: 10px;
+  margin-bottom: 12px;
+}
+
+.标识 h2 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 18px;
+  margin-bottom: 3px;
+  color: #fff;
+}
+
+.标识 p {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 13px;
+  color: #cfd6e6;
+  margin-bottom: 10px;
+}
+
+.标识 audio {
+  width: 270px;
+}
+
+.照片{
+  display: flex;
+  justify-content: center;
+  margin: 20px;
+  border-color:white;
+}
+
+.容器 {
+  border: 2px solid #333;
+  border-radius: 10px;
+  padding: 15px;
+  width: 300px;
+}
+
+.photo {
+  width: 300px;
+  margin: 10px;
+  border-radius: 10px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.4);
+  position: relative;
+  left: 447px;
+}
+
+.文本框 {
+  font-family:Arial, Helvetica, sans-serif;
+  color: #fff;
+  font-size: 14px;
+}
+
+.烘烤 {
+  font-family: Arial, Helvetica, sans-serif;
+  color: #fff;
+  font-size: 15px;
+  margin-top: 100px;
+}
+
+
+
